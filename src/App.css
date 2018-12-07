@@ -71,11 +71,12 @@ html, body{
 
 .messages{
   padding: 20px;
-  overflow: scroll;
+  overflow-y: scroll;
   flex-grow: 2;
-  background: #dedede;
+  background: wheat;
+  height: 200px;
 }
 
-.message{
-
+.message {
+  background: rgb(216, 206, 205);
 }
